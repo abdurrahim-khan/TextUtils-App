@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 /*var myprop;
 var mySetStyle;
 var myDarkStyle;
@@ -78,9 +78,7 @@ export default function About(props) {
         </div>
     </div>
 </div>
-<div className='container'>
-    <button className={(props.mode==="dark") ? "btn btn-dark" : "btn btn-primary"}>{(props.mode==="dark") ? "enable light" : "enable dark"}</button>
-</div>
+
 </>
   )
 }
